@@ -1,0 +1,94 @@
+/* Colors and fonts */
+
+body{
+	background:#0d2c49;	
+	color: #786343;
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: lighter;
+	width: 700px;
+	margin: 80px auto;
+	padding: 40px auto;
+	}
+h1,h2{
+	font-family: Arial;
+	color:#786343;
+	}
+h1{
+	font-size: 20px;
+	font-weight: bold;
+	}
+h2{	
+	font-size: 20px;
+	font-weight: lighter;
+	}
+a{	
+	text-decoration: none;
+	color: rgb(60,60,60);
+	transition: color 0.3s ease;	
+	font-weight: bold;
+	}
+a:hover{	
+	color: rgb(60,60,60);
+	cursor: pointer;
+	text-decoration: underline;
+	}
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) { 
+	/* For a screen < 720px, this CSS will be read */ 
+	.container { 
+		width: 500px; 
+	}
+}
+@media (max-width: 540px) { 
+	/* For a screen < 540px, this CSS will be read */ 
+	.container { 
+		width: 300px;
+	}
+}
+/* Custom design with class */
+.container {	
+	background-color:#0d2c49;
+	width: 700px;
+	margin: 40px auto;	
+}
+.card-white { 
+	background:#ddcab7;
+	padding: 40px; 
+	border-radius:4px;
+	border: 1px solid lightgrey;
+	margin: 40px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%
+}
+.btn-blue {
+	background-color: #d8c615;
+	color: white;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+.list-inline i {
+	text-align:center;
+	list-style: none;
+	color: rgb (230,230,230);
+}
+.list-inline {
+	text-align:center;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction {
+	margin-bottom:40px;
+}
